@@ -1,38 +1,38 @@
 ---
-name: 🐛 Bug Report
-about: Report a problem with the workshop materials or notebooks
-title: "[Bug] "
+nome: 🐛 Reporte de Bug
+sobre: Reporte qualquer problema encontrado com materiais ou notebooks do workshop
+título: "[Bug] "
 labels: bug
 assignees: ''
 ---
 
-## Description
+## Descrição
 
-A clear and concise description of the bug.
+Uma descrição clara e concisa do bug encontrado.
 
-## Steps to Reproduce
+## Passos para Reprodução
 
-1. Go to '...'
-2. Click on '...'
-3. Scroll down to '...'
-4. See error
+1. Vá para '...'
+2. Clique em '...'
+3. Arraste até '...'
+4. Veja o erro
 
-## Expected Behavior
+## Comportamento Esperado
 
-A clear and concise description of what you expected to happen.
+Uma descrição clara e concisa do que você espera que aconteça.
 
-## Screenshots
+## Capturas da tela
 
-If applicable, add screenshots to help explain your problem.
+Se aplicável, adicione capturas de tela para ajudar na explicação do problema encontrado.
 
 ## Environment
 
 - OS: (e.g., Windows, macOS, Linux)
-- Python version: (e.g., 3.10)
-- Miniconda version: (e.g., 23.1.0)
-- `uv` version (if applicable): (e.g., 0.1.36)
-- Jupyter Notebook/Lab version: (e.g., 7.0.0)
+- Versão do Python: (e.g., 3.10)
+- Verão do Miniconda: (e.g., 23.1.0)
+- Versão do `uv` (se aplicável): (e.g., 0.1.36)
+- Versão do Jupyter Notebook/Lab: (e.g., 7.0.0)
 
-## Additional Context
+## Contexto adicional
 
-Add any other context about the problem here.
+Adicione qualquer outro contexto sobre o problema encontrado aqui.
