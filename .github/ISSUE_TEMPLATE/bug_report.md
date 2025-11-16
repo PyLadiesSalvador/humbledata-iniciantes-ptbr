@@ -25,7 +25,7 @@ Uma descrição clara e concisa do que você espera que aconteça.
 
 Se aplicável, adicione capturas de tela para ajudar na explicação do problema encontrado.
 
-## Environment
+## Ambiente
 
 - OS: (e.g., Windows, macOS, Linux)
 - Versão do Python: (e.g., 3.10)
