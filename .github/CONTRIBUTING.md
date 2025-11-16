@@ -15,7 +15,7 @@ Obrigada por contribuir com a tradução do workshop Humble Data para Português
 - dataframe → dataframe (não traduzir)
 
 ## ✅ Fluxo de Trabalho
-1. **Escolha uma tarefa** no arquivo `TASKS.md` e abra uma *issue* no GitHub.
+1. **Escolha uma tarefa** no arquivo `TAREFAS-TRADUCAO.md` e abra uma *issue* no GitHub.
 2. Crie uma **branch** com nome descritivo (ex.: `traducao-readme`).
 3. Faça a tradução seguindo as regras acima.
 4. Abra um **Pull Request (PR)** para a branch `develop`.
