@@ -2,97 +2,97 @@
 
 [![Humble Data Workshop](./media/humble-data-logo-transparent.png)](https://humbledata.org)
 
-## ℹ️ If you would like to know more about this workshop, please [email us](mailto:contact@humbledata.org).
+## ℹ️ Se você gostaria de saber mais sobre esse workshop, por favor, nos envie um [email](mailto:contact@humbledata.org).
 
 ---
-## Table of Contents
-* [Accessing the materials in browser](#accessing-the-materials-in-browser)
-* [Local environment setup](#local-environment-setup)
-	+ [UV Installation](#uv-installation)
-	+ [Installing Miniconda](#installing-miniconda)
+## Tabela de Conteúdos
+* [Acessando os materiais pelo navegador](#accessing-the-materials-in-browser)
+* [Preparando o ambiente local](#local-environment-setup)
+	+ [Instalação do UV](#uv-installation)
+	+ [Instalação do Miniconda](#installing-miniconda)
  		- [Windows](#windows)
  		- [Unix (Linux/macOS)](#unix-linuxmacos)
-+ [Creating and Activating the Environment](#creating-and-activating-the-environment)
++ [Criando e Ativando o Ambiente](#creating-and-activating-the-environment)
 
-* [License](#license)
+* [Licença](#license)
 ---
 
-### Accessing the materials in browser
+### Acessando os materiais pelo navegador
 
-During the workshop, we provide the materials for beginners using a JupyterLite server. The materials are currently available in [English](https://humbledata.org/online-workshop/lab/index.html), [Spanish](https://humbledata.org/online_workshop_spanish/lab/index.html) and [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html). Please contact us if you'd like to help out the project by translating the materials into other languages!  
-**The easiest way to access the materials for beginners is to use our [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) server.** Select a language below to get started:
+Ao longo do workshop, nós fornecemos os materiais para iniciantes usando um servidor JupyterLite. Os materiais estão disponíveis atualmente em [Inglês](https://humbledata.org/online-workshop/lab/index.html), [Espanhol](https://humbledata.org/online_workshop_spanish/lab/index.html) e [Italiano](https://humbledata.org/online-workshop-italian-v2/lab/index.html). Por favor, nos contate se você gostaria de contribuir com o projeto traduzindo os materiais para outros idiomas!
+**O jeito mais fácil de acessar os materiais para iniciantes é usando nosso servidor [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).** Selecione um idioma abaixo para iniciar:
 
-The materials can also be cloned from our [GitHub repo](https://github.com/HumbleData/beginners-data-workshop). If you want to use the materials this way, you will need to install them locally. Instructions on how to do this are provided below. Don't worry if you've never done this before—these instructions are designed for complete beginners and will walk you through each step.
-- [English](https://humbledata.org/online-workshop/lab/index.html)
-- [Spanish](https://humbledata.org/online_workshop_spanish/lab/index.html)
-- [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html).
+Os materiais também podem ser clonados do nosso [repositório no GitHub](https://github.com/HumbleData/beginners-data-workshop). Se você quiser usar os materiais desse jeito, será preciso instalar-los localmente. As instruções de como fazer isso estão disponíveis abaixo. Não se preocupe se você nunca fez isso antes - essas instruções foram pensadas para completos iniciantes e vão te guiar por cada passo do workshop.
+- [Inglês](https://humbledata.org/online-workshop/lab/index.html)
+- [Espanhol](https://humbledata.org/online_workshop_spanish/lab/index.html)
+- [Italiano](https://humbledata.org/online-workshop-italian-v2/lab/index.html).
 
-Please contact us if you'd like to help out the project by translating the materials into other languages! 
+Por favor, nos contate se você gostaria de contribuir com o projeto traduzindo os materiais para outros idiomas!
 
-### Installing the materials locally
+### Instalando os materiais localmente
 
-If you're interested in learning how to manage your own Python Environment you will need to install the materials locally. Instructions on how to do this are provided below. Don't worry if you've never done this before—these instructions are designed for complete beginners and will walk you through each step.
+Se você estiver interessado em aprender como gerenciar o seu próprio ambiente Python, será preciso instalar os materiais localmente. As instruções de como fazer isso estão disponíveis abaixo. Não se preocupe se você nunca fez isso antes - essas instruções foram pensadas para completos iniciantes e vão te guiar por cada passo do workshop.
 
-To run these notebooks on on your machine you must set up a *Python environment*. This document contains instructions on how to run the workshop using either `uv` or `conda` (Miniconda).
+Para rodar esses notebooks na sua máquina, você deve preparar um *ambiente Python*. Esse documento contém instruções de como rodar o workshop usando o `uv` ou `conda` (Miniconda) como gerenciador de pacotes.
 
-Start by cloning the repository and then entering the directory:
+Comece cloonando o repositório e entrando no diretório `beginners-data-workshop`:
 ```bash
 git clone https://github.com/HumbleData/beginners-data-workshop.git
 cd beginners-data-workshop
 ```
-Then follow either the "UV Installation" or "Miniconda Installation" instructions below.
+Então siga as instruções "Instação do UV" ou "Instação do Miniconda" abaixo.
 
-### UV Installation
-To run this workshop locally using `uv`, first you will need to [install uv](https://docs.astral.sh/uv/getting-started/installation/) on your computer.
+### Instação do UV
+Para rodar localmente esse worshop usando `uv`, primeiro você vai precisar [instalar o uv](https://docs.astral.sh/uv/getting-started/installation/) no seu computador.
 
-Once it is done, follow the instructions below:
+Assim que esteja instalado, siga as instruções abaixo:
 
-1. Create a virtual python virtual environment 3.10+
+1. Crie um ambiente virtual python na versão 3.10+
 	* `uv venv humble-data-workshop --python 3.10`
-2. Activate the virtual environment.
+2. Ative o ambiente virtual.
 	* `source humble-data-workshop/bin/activate`
-3. Install Dependencies
+3. Instale as dependências
 	* `uv pip install -r requirements.txt`
 
-### Miniconda Installation
+### Instação do Miniconda
 
 #### Windows
-1. Download the Miniconda installer for Windows from the [official website](https://docs.conda.io/en/latest/miniconda.html)
-2. Double-click the downloaded `.exe` file
-3. Follow the installation prompts:
-   - Click "Next"
-   - Accept the license terms
-   - Select "Just Me" for installation scope
-   - Choose an installation directory (default is recommended)
-   - In "Advanced Options", check "Add Miniconda3 to my PATH environment variable"
-   - Click "Install"
+1. Faça o download do instalador do Miniconda para Windows do [site oficial](https://docs.conda.io/en/latest/miniconda.html)
+2. Clique duas vezes no arquivo `.exe` baixado
+3. Siga os comandos de instalação:
+   - Clique em "Próximo"
+   - Aceite os termos de licença
+   - Selecione "Apenas eu" para o escopo da instalação
+   - Escolha o diretório para instalação (o diretório padrão é recomendado)
+   - Em "Opções Avançadas", clique em "Adicionar Miniconda3 a minha variável de ambiente PATH"
+   - Clique em "Instalar"
 
 #### Unix (Linux/macOS)
-1. Download the Miniconda installer for your system from the [official website](https://docs.conda.io/en/latest/miniconda.html)
-2. Open Terminal
-3. Navigate to the directory containing the downloaded file
-4. Make the installer executable:
+1. Faça o download do instalador do Miniconda installer para o seu sistema do [site oficial](https://docs.conda.io/en/latest/miniconda.html)
+2. Abra o Terminal
+3. Navegue até o diretório que contém o arquivo baixado
+4. Torne o instalador executável:
    ```bash
    chmod +x Miniconda3-latest-*-x86_64.sh
    ```
-5. Run the installer:
+5. Rode o instalado:
    ```bash
    ./Miniconda3-latest-*-x86_64.sh
    ```
-6. Follow the prompts:
-   - Press Enter to review the license agreement
-   - Type "yes" to accept the license terms
-   - Confirm the installation location (default is recommended)
-   - Type "yes" to initialize Miniconda3
+6. Siga os comandos:
+   - Pressione Enter para revisar o acordo da licença 
+   - Digite "yes" para aceitar os termos da licença  
+   - Confirme o local da instalação (default é recomendado) 
+   - Digite "yes" para inicializar o Miniconda3
 
-#### Creating and Activating the Environment
+#### Criando e Ativando o Ambiente
 
-1. Open a new terminal (Windows: Anaconda Prompt, Unix: Terminal)
-2. Create a new environment named 'humble-data':
+1. Abra um novo terminal (Windows: Anaconda Prompt, Unix: Terminal)
+2. Crie um novo ambiente chamado 'humble-data':
    ```bash
    conda create -n humble-data python=3.8
    ```
-3. Activate the environment:
+3. Ative o ambiente:
    - Windows:
      ```bash
      conda activate humble-data
@@ -101,38 +101,38 @@ Once it is done, follow the instructions below:
      ```bash
      conda activate humble-data
      ```
-4. Install required packages:
+4. Instale os pacotes necessários:
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Start Jupyter Notebook:
+5. Inicialize o Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-   This will open Jupyter Notebook in your default web browser. You can now navigate to and open any of the workshop notebooks.
+   Esse comando abrirá o Jupyter Notebook no seu navegador padrão. Agora vocẽ pode navegar por ou abrir qualquer um dos notebooks do workshopo.
 
-## Contributing
+## Contribuindo
 
-1. Fork this repository
-2. Clone your fork locally
-3. Create a branch for your changes:
+1. Crie um fork desse repositório
+2. Clone seu fork localmente
+3. Crie uma branch para suas alterações:
 ```git checkout -b improve-notebook-x```
 
-4. Make your changes:
+4. Realize suas alterações:
 
-- Keep explanations simple and beginner-friendly
-- Test notebooks in both Google Colab and local environments
-- Follow existing code style and formatting
+- Mnatenha as explicações simples e fáceis para iniciantes 
+- Teste os  notebooks tanto no Google Colab quanto em ambientes locais
+- Siga os estilos existentes de código e formatação
 
 
-5. Commit with a clear message:
+5. Faça o commit com uma mensagem clara:
 ```git commit -m "Fix typo in data visualization notebook"```
 
-6. Push and create a pull request
-
+6. Faça o push da sua branch e crie um pull request:
+```git push -u origin improve-notebook-x```
 ---
 
-## License
+## Licença
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este projeto está sob uma <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licença Internacional Creative Commons 4.0 que permite uso com crédito, proíbe fins comerciais e exige que obras derivadas a usem</a>.

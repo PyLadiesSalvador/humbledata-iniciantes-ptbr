@@ -2,7 +2,7 @@
 
 ## Arquivos principais
 
-- [ ] README.md
+- [x] README.md
 - [ ] CHANGELOG.md
 
 ## Notebooks
@@ -22,7 +22,7 @@
 
 ## Templates
 
-- [ ] .github/ISSUE\_TEMPLATE (revisar e adaptar para tradução)
+- [x] .github/ISSUE\_TEMPLATE (revisar e adaptar para tradução)
 
 ## Observações
 
