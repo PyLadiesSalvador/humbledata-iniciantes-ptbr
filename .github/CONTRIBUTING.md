@@ -8,7 +8,7 @@ Obrigada por contribuir com a tradução do workshop Humble Data para Português
 - **Manter links originais**: não altere URLs.
 - **Preservar formatação**: títulos, listas e blocos de código devem manter o padrão original.
 
-## ✅ Glossário Inicial
+## ✅ Glossário
 - dataset → conjunto de dados
 - notebook → notebook (não traduzir)
 - environment → ambiente

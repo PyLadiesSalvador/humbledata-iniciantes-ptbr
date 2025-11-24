@@ -8,7 +8,7 @@
 ## Notebooks
 
 - [ ] 1. Beginning with Python.ipynb
-- [ ] 2. First steps with Pandas.ipynb
+- [X] 2. First steps with Pandas.ipynb
 - [ ] 3.1 Visualization with Matplotlib.ipynb
 - [ ] 3.2 Visualization with Seaborn.ipynb
 - [ ] 4. More Python basics.ipynb
@@ -22,7 +22,7 @@
 
 ## Templates
 
-- [ ] .github/ISSUE\_TEMPLATE (revisar e adaptar para tradução)
+- [X] .github/ISSUE\_TEMPLATE (revisar e adaptar para tradução)
 
 ## Observações
 
