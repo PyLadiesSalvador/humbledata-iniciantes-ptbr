@@ -1,23 +1,23 @@
 ---
-name: 💡 Workshop Content Suggestion
-about: Suggest a new topic or improvement to the existing workshop material
-title: "[Content Suggestion] "
+nome: 💡 Sugestão de Conteúdo para o Workshop
+sobre: Sugira um novo tópico ou melhoria para o material já existente do workshop
+título: "[Sugestão de Conteúdo] "
 labels: enhancement
 assignees: ''
 ---
 
-## What's your suggestion?
+## Qual a sua sugestão?
 
-Briefly describe the topic or improvement you'd like to see.
+Descreva brevemente o tópico ou melhoria que você gostaria de ver.
 
-## Why is it useful?
+## Por que é útil?
 
-Explain how this would help learners or improve the workshop.
+Explique como isso ajudaria pessoas que estão aprendendo ou como melhoraria o workshop.
 
-## Any helpful resources or examples?
+## Algum recurso ou exemplo que contribua para a sugestão?
 
-(Optional) Link to tutorials, articles, or code that support your idea.
+(Opcional) Adicione aqui links de tutoriais, artigos ou código que dê base à sua ideia.
 
-## Additional Notes
+## Notas adicionais
 
-Anything else we should know?
+Mais alguma coisa que deveríamos saber?
