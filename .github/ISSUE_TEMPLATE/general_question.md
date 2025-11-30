@@ -1,19 +1,19 @@
 ---
-name: ❓ General Question
-about: Ask a question or seek clarification about the workshop materials
-title: "[Question] "
+nome: ❓ Questão Geral
+sobre: Tire dúvidas sobre os materiais ou informações do workshop.
+titúlo: "[Dúvida] "
 labels: question
 assignees: ''
 ---
 
-## Your Question
+## Sua Pergunta
 
-Please provide a clear and concise question.
+Por favor faça uma pergunta clara e objetiva.
 
-## Context
+## Contexto
 
-Provide any relevant context or background information.
+Forneça qualquer contexto relevante sobre a dúvida.
 
-## Additional Information
+## Informações Adicionais
 
-Add any other details or screenshots that might help.
+Adicione quaisquer outros detalhes ou capturas de tela que possam ajudar.
