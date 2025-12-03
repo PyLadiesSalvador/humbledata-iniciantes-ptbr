@@ -22,7 +22,7 @@
 Ao longo do workshop, nós fornecemos os materiais para iniciantes usando um servidor JupyterLite. Os materiais estão disponíveis atualmente em [Inglês](https://humbledata.org/online-workshop/lab/index.html), [Espanhol](https://humbledata.org/online_workshop_spanish/lab/index.html) e [Italiano](https://humbledata.org/online-workshop-italian-v2/lab/index.html). Por favor, nos contate se você gostaria de contribuir com o projeto traduzindo os materiais para outros idiomas!
 **O jeito mais fácil de acessar os materiais para iniciantes é usando nosso servidor [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/).** Selecione um idioma abaixo para iniciar:
 
-Os materiais também podem ser clonados do nosso [repositório no GitHub](https://github.com/HumbleData/beginners-data-workshop). Se você quiser usar os materiais desse jeito, será preciso instalar-los localmente. As instruções de como fazer isso estão disponíveis abaixo. Não se preocupe se você nunca fez isso antes - essas instruções foram pensadas para completos iniciantes e vão te guiar por cada passo do workshop.
+Os materiais também podem ser clonados do nosso [repositório no GitHub](https://github.com/HumbleData/beginners-data-workshop). Se você quiser usar os materiais desse jeito, será preciso instalá-los localmente. As instruções de como fazer isso estão disponíveis abaixo. Não se preocupe se você nunca fez isso antes - essas instruções foram pensadas para completos iniciantes e vão te guiar por cada passo do workshop.
 - [Inglês](https://humbledata.org/online-workshop/lab/index.html)
 - [Espanhol](https://humbledata.org/online_workshop_spanish/lab/index.html)
 - [Italiano](https://humbledata.org/online-workshop-italian-v2/lab/index.html).
