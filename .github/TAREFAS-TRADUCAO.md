@@ -2,7 +2,7 @@
 
 ## Arquivos principais
 
-- [ ] README.md
+- [x] README.md
 - [ ] CHANGELOG.md
 
 ## Notebooks
