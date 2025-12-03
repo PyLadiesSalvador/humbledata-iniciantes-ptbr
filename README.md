@@ -60,11 +60,11 @@ Assim que esteja instalado, siga as instruções abaixo:
 1. Faça o download do instalador do Miniconda para Windows do [site oficial](https://docs.conda.io/en/latest/miniconda.html)
 2. Clique duas vezes no arquivo `.exe` baixado
 3. Siga os comandos de instalação:
-   - Clique em "Próximo"
+   - Clique em "Next" (Próximo)
    - Aceite os termos de licença
-   - Selecione "Apenas eu" para o escopo da instalação
+   - Selecione "Just me" (Apenas eu) para o escopo da instalação
    - Escolha o diretório para instalação (o diretório padrão é recomendado)
-   - Em "Opções Avançadas", clique em "Adicionar Miniconda3 a minha variável de ambiente PATH"
+   - Em "Advanced Options" (Opções Avançadas), clique em "Adicionar Miniconda3 a minha variável de ambiente PATH"
    - Clique em "Instalar"
 
 #### Unix (Linux/macOS)
