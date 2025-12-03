@@ -12,7 +12,7 @@
 - [X] 3.1 Visualization with Matplotlib.ipynb
 - [ ] 3.2 Visualization with Seaborn.ipynb
 - [ ] 4. More Python basics.ipynb
-- [ ] 5. More Pandas.ipynb
+- [X] 5. More Pandas.ipynb
 
 ## Pastas
 
