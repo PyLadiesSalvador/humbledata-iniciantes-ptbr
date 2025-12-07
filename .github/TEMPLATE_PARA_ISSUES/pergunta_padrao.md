@@ -1,5 +1,5 @@
 ---
-nome: ❓ Questão Geral
+nome: ❓ Pergunta padrão
 sobre: Tire dúvidas sobre os materiais ou informações do workshop.
 titúlo: "[Dúvida] "
 labels: question
