@@ -1,1 +1,1 @@
-"Ole" not in list_greeting
+"Ole" not in lista_de_cumprimentos

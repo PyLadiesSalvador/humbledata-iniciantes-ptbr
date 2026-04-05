@@ -1,1 +1,1 @@
-list_greeting[0]
+lista_de_cumprimentos[0]
