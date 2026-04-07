@@ -2,7 +2,7 @@
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
-O formato segue o padrão do [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+O formato segue o padrão do [Mantenha um Changelog](http://keepachangelog.com/en/1.0.0/)
 e este projeto adota [Versionamento Semântico](http://semver.org/spec/v2.0.0.html).
 
 <!-- TOWNCRIER -->
@@ -24,7 +24,7 @@ e este projeto adota [Versionamento Semântico](http://semver.org/spec/v2.0.0.ht
   - Integração e configuração do flake8, pylint, black e outros linters
   - Adicionada configuração de pre-commit
   - Atualização do arquivo `settings.json` do VS Code
-  - Adicionado `linestripper.py` para evitar novas linhas no EOF nos códigos das soluções (melhor experiência para participantes), mantendo conformidade com o black
+  - Adicionado `linestripper.py` para evitar novas linhas no EOF (End Of File, Fim do arquivo) nos códigos das soluções (melhor experiência para participantes), mantendo conformidade com o black
   - Adicionado o `CHANGELOG.md` e início do versionamento de releases
 - **Materiais do workshop**
   - Revisão de todos os materiais para remover itens obsoletos
