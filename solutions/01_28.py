@@ -1,1 +1,1 @@
-10 in list_greeting
+10 in lista_de_cumprimentos

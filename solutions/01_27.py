@@ -1,2 +1,2 @@
-list_greeting[2] = "Ola"
-print(list_greeting)
+lista_de_cumprimentos[2] = "Ola"
+print(lista_de_cumprimentos)
