@@ -1,1 +1,1 @@
-len(list_greeting)
+len(lista_de_cumprimentos)

@@ -1,1 +1,1 @@
-'I'm enjoying this workshop!'
+'Ela disse: 'Eu estou gostando desse workshop''
