@@ -5,6 +5,6 @@
 #
 
 
-def f(x):
-    """Returns the argument multiplied by 3 and increased by 10."""
+def funcao(x):
+    """Retorna o argumento multiplicado por 3 e somado 10."""
     return (x * 3) + 10

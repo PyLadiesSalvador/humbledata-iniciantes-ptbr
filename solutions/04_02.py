@@ -1,2 +1,2 @@
-dict_greeting["UK"] = "Good Morning"
-print(dict_greeting)
+dict_saudacoes["Reino Unido"] = "Good Morning"
+print(dict_saudacoes)
