@@ -25,6 +25,7 @@ Ao longo do workshop, nós fornecemos os materiais para iniciantes usando um ser
 Os materiais também podem ser clonados do nosso [repositório no GitHub](https://github.com/HumbleData/beginners-data-workshop). Se você quiser usar os materiais desse jeito, será preciso instalá-los localmente. As instruções de como fazer isso estão disponíveis abaixo. Não se preocupe se você nunca fez isso antes - essas instruções foram pensadas para completos iniciantes e vão te guiar por cada passo do workshop.
 - [Inglês](https://humbledata.org/online-workshop/lab/index.html)
 - [Espanhol](https://humbledata.org/online_workshop_spanish/lab/index.html)
+- [Francês](https://humbledata.org/online-workshop-fr/lab/index.html)
 - [Italiano](https://humbledata.org/online-workshop-italian-v2/lab/index.html)
 - [Português Brasileiro](https://humbledata.org/online_workshop_ptbr/lab/index.html).
 
