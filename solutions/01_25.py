@@ -1,1 +1,1 @@
-list_greeting[:4]
+lista_de_cumprimentos[:4]

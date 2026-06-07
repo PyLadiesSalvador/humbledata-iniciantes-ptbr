@@ -5,8 +5,8 @@ z = 12
 if x > 0:
     print("Python")
 elif y == 2:
-    print("sunshine")
+    print("raio de sol")
 elif z % 3 == 0:
     print("data")
 else:
-    print("Why?")
+    print("Por quê?")
