@@ -1,1 +1,1 @@
-"Ela disse: 'Eu estou curtindo esse workshop'"
+"Ela disse: 'Eu estou gostando desse workshop'"
