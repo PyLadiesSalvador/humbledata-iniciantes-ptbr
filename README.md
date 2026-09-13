@@ -12,6 +12,7 @@
 	+ [Instalação do Miniconda](#installing-miniconda)
  		- [Windows](#windows)
  		- [Unix (Linux/macOS)](#unix-linuxmacos)
+   + [Outra Opção](#outra-opção)
 + [Criando e Ativando o Ambiente](#creating-and-activating-the-environment)
 
 * [Licença](#license)
@@ -114,6 +115,19 @@ Assim que esteja instalado, siga as instruções abaixo:
    ```
    Esse comando abrirá o Jupyter Notebook no seu navegador padrão. Agora vocẽ pode navegar por ou abrir qualquer um dos notebooks do workshopo.
 
+### Outra opção
+
+Caso você tenha algum problema para executar os notebooks no Jupyter Lite, que pode acabar demorando muito para rodar alguns células, por exemplo, também temos o conteúdo do workshop disponível no Google Colab, mantido pelo Pyladies Salvador. Links de acesso:
+
+1. Começando com o Python: https://colab.research.google.com/drive/1_YqTfkP3cR8ngQebue13zQA-HA5N-_hZ?usp=sharing
+2. Primeiros passos com Pandas: https://colab.research.google.com/drive/1_8R5wIQ7Y1ExEIIyZmtEHa2QmhCKFYr6?usp=sharing
+3.1. Visualização com Matplotlib: https://colab.research.google.com/drive/13oMP_AS1B4ABs0xfBxJq9wSDupd8STuv?usp=sharing
+3.2. Visualização com Seaborn: https://colab.research.google.com/drive/1VosXdZA2fqTVj53bgDbKNMVnkFdRWNli?usp=sharing
+4. Mais Python Básico: https://colab.research.google.com/drive/1rXjG0xS6LVzWHlRc78bqgg2hdkE43L6S?usp=sharing
+5. Mais Pandas: https://colab.research.google.com/drive/1-QpmXJTlusCiguMMc292uus2mpv3QiOc?usp=sharing
+
+Em alguns casos, o Google Colab pode ser mais rápido de executar já que carrega o Python e seus módulos diretamente do ambiente do Google, enquanto o Jupyter Lite tenta instalar em seu navegador.
+
 ## Contribuindo
 
 1. Crie um fork desse repositório
@@ -123,7 +137,7 @@ Assim que esteja instalado, siga as instruções abaixo:
 
 4. Realize suas alterações:
 
-- Mnatenha as explicações simples e fáceis para iniciantes 
+- Mantenha as explicações simples e fáceis para iniciantes 
 - Teste os  notebooks tanto no Google Colab quanto em ambientes locais
 - Siga os estilos existentes de código e formatação
 
